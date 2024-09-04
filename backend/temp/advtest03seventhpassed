@@ -1,0 +1,1168 @@
+Tue Jun  4 05:58:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:58:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:58:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:58:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:58:55 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 2 (Failed to convert stats)
+Tue Jun  4 05:58:55 2024 user.info FSM[4406]: <INFO>      MISC: fsm_dpi_periodic: core_dpi_dispatch: total flows: 101 held flows: 1811, reported flows: 0
+Tue Jun  4 05:58:55 2024 user.info FSM[4406]: <INFO>      MISC: fsm_dpi_periodic: unix_ipc: io successes: 50, io failures: 0
+Tue Jun  4 05:58:55 2024 user.info FSM[4406]: <INFO>      MISC: dpi_plugin_periodic:walleye_dpi: active connections: 76
+Tue Jun  4 05:58:57 2024 user.notice healthcheck[25861]: <INFO>      MAIN: Checking....
+Tue Jun  4 05:58:57 2024 user.notice healthcheck[25868]: <DEBUG>     MAIN: 05_ntp.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26011]: <DEBUG>     MAIN: 10_bss.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26015]: <DEBUG>     MAIN: 12_dns.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26023]: <DEBUG>     MAIN: 15_ap.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26033]: <DEBUG>     MAIN: 16_ovs.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26041]: <DEBUG>     MAIN: 20_tmp_df.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26048]: <DEBUG>     MAIN: 30_netdev_refcount.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26053]: <DEBUG>     MAIN: 40_conntrack_overflow.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26063]: <DEBUG>     MAIN: 98_file_handles.sh check passed
+Tue Jun  4 05:58:59 2024 user.notice healthcheck[26071]: <DEBUG>     MAIN: 99_zombie.sh check passed
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MAIN: dhcp_rip: DHCP_reserved_IP new/modify(1): {"_version": ["uuid", "a189ae5c-b812-4860-b0f5-cc9c604a1cd5"], "ip_addr": "192.168.40.118", "hw_addr": "dc:a6:32:4e:05:b3", "hostname": ["set", []], "_uuid": ["uuid", "aa69f325-fcd1-4c8d-a388-04abc0061a7f"]}
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: inet_base: br-home: Commiting new configuration.
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: inet_eth: br-home: Service DHCPv4 Server -> stop.
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: inet_base: br-home: Service DHCPv4 Server -> stop
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Stopping dnsmasq service on interface br-home.
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: inet_eth: br-home: Service DHCPv4 Server -> start.
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: inet_base: br-home: Service DHCPv4 Server -> start
+Tue Jun  4 05:58:59 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Stopping dnsmasq service on interface br-home.
+Tue Jun  4 05:58:59 2024 user.info QM[4315]: <INFO>     TELOG: NM[4452] [00:25:29.740] DHCP4_SERVER: br-home: [stop] 
+Tue Jun  4 05:58:59 2024 user.info QM[4315]: <INFO>     TELOG: NM[4452] [00:25:29.741] DHCP4_SERVER: br-home: [start] 
+Tue Jun  4 05:59:00 2024 user.info NM[4452]: <INFO>      MISC: Restarting dnsmasq.
+Tue Jun  4 05:59:00 2024 user.info NM[4452]: <INFO>      MISC: Terminating daemon /usr/sbin/dnsmasq (23583, signal 15).
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[23583]: exiting on receipt of SIGTERM
+Tue Jun  4 05:59:00 2024 user.info NM[4452]: <INFO>      MISC: Daemon /usr/sbin/dnsmasq (23583) exited with exit status 0.
+Tue Jun  4 05:59:00 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Lease file changed.
+Tue Jun  4 05:59:00 2024 user.info NM[4452]: <INFO>      MISC: Started daemon /usr/sbin/dnsmasq (26073)...
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: started, version 2.80 cachesize 150
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-nettlehash no-DNSSEC no-ID loop-detect inotify dumpfile
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq-dhcp[26073]: DHCP, IP range 192.168.40.2 -- 192.168.40.254, lease time 12h
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq-dhcp[26073]: DHCP, IP range 169.254.2.2 -- 169.254.2.126, lease time 12h
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq-dhcp[26073]: DHCP, IP range 169.254.3.2 -- 169.254.3.126, lease time 12h
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq-dhcp[26073]: DHCP, IP range 169.254.3.130 -- 169.254.3.254, lease time 12h
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq-dhcp[26073]: DHCP, IP range 169.254.2.130 -- 169.254.2.254, lease time 12h
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: using local addresses only for domain lan
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: reading /tmp/resolv.conf
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: using local addresses only for domain lan
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: using nameserver 192.168.200.1#53
+Tue Jun  4 05:59:00 2024 daemon.info dnsmasq[26073]: read /etc/hosts - 1 addresses
+Tue Jun  4 05:59:00 2024 daemon.err dnsmasq-dhcp[26073]: failed to read /etc/ethers: No such file or directory
+Tue Jun  4 05:59:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:00 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 4 (Failed to convert stats)
+Tue Jun  4 05:59:02 2024 user.info CM[4354]: <INFO>      MISC: eth0: stability for eth0: scheduling 0x1b update
+Tue Jun  4 05:59:02 2024 user.info CM[4354]: <INFO>      MISC: eth0: cm2_util_req_stability_check_recalc calling. Link check: eth0
+Tue Jun  4 05:59:02 2024 user.info CM[4354]: <INFO>      MISC: pid 4354: mem usage: real mem: 4000, virt mem 9408
+Tue Jun  4 05:59:03 2024 user.info CM[4354]: <INFO>      MISC: Params to check: link: yes router: yes internet: no ntp: yes ipv4: yes ipv6: no opts = 27
+Tue Jun  4 05:59:03 2024 user.notice CM[4354]: <NOTICE>    MISC: Connection status 1, main link: eth0 bridge: none 
+Tue Jun  4 05:59:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 4 (Failed to convert stats)
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 4
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 4
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:05 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 3 (Failed to convert stats)
+Tue Jun  4 05:59:09 2024 daemon.info dnsmasq-dhcp[26073]: DHCPDISCOVER(br-home) dc:a6:32:4e:05:b3 
+Tue Jun  4 05:59:09 2024 daemon.info dnsmasq-dhcp[26073]: DHCPOFFER(br-home) 192.168.40.118 dc:a6:32:4e:05:b3 
+Tue Jun  4 05:59:09 2024 daemon.info dnsmasq-dhcp[26073]: DHCPREQUEST(br-home) 192.168.40.118 dc:a6:32:4e:05:b3 
+Tue Jun  4 05:59:09 2024 daemon.info dnsmasq-dhcp[26073]: DHCPACK(br-home) 192.168.40.118 dc:a6:32:4e:05:b3 plume-client
+Tue Jun  4 05:59:09 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Lease file changed.
+Tue Jun  4 05:59:09 2024 user.info QM[4315]: <INFO>     TELOG: NM[4452] [00:25:39.530] DHCP4_SERVER: br-home: [lease-new] addr=192.168.40.118
+Tue Jun  4 05:59:09 2024 user.info NM[4452]: <INFO>      MAIN: dhcp_lease: Released DHCP lease: MAC:dc:a6:32:4e:05:b3 IP:192.168.40.9 Hostname:plume-client Time:1243
+Tue Jun  4 05:59:09 2024 user.notice NM[4452]: <NOTICE>    MAIN: dhcp_lease: Removed DHCP lease 'dc:a6:32:4e:05:b3' with '192.168.40.9' 'plume-client' '0'
+Tue Jun  4 05:59:09 2024 user.info FCM[4417]: <INFO>     OVSDB: MON upd: DEL table: DHCP_leased_IP row: efa22547-4527-4357-979b-ee2ddd08dbe4
+Tue Jun  4 05:59:09 2024 user.info NM[4452]: <INFO>      MAIN: dhcp_lease: Acquired DHCP lease: MAC:dc:a6:32:4e:05:b3 IP:192.168.40.118 Hostname:plume-client Time:1717523949
+Tue Jun  4 05:59:09 2024 user.notice NM[4452]: <NOTICE>    MAIN: Updated DHCP lease 'dc:a6:32:4e:05:b3' with '192.168.40.118' 'plume-client' '1717523949'
+Tue Jun  4 05:59:09 2024 user.info QM[4315]: <INFO>     TELOG: NM[4452] [00:25:39.554] DHCP4_SERVER: br-home: [lease-delete] addr=192.168.40.9
+Tue Jun  4 05:59:09 2024 user.notice NM[4452]: <NOTICE>   DHCPS: inet_dhsnif: ACK IP:192.168.40.118 MAC:dc:a6:32:4e:05:b3 Hostname:plume-client
+Tue Jun  4 05:59:09 2024 user.info FCM[4417]: <INFO>     OVSDB: MON upd: NEW table: DHCP_leased_IP row: ee6f7cf5-029f-40b3-81f1-e81cf87f4804
+Tue Jun  4 05:59:09 2024 user.info NM[4452]: <INFO>      MAIN: dhcp_lease: Acquired DHCP lease: MAC:dc:a6:32:4e:05:b3 IP:192.168.40.118 Hostname:plume-client Time:1539
+Tue Jun  4 05:59:09 2024 user.notice NM[4452]: <NOTICE>    MAIN: Updated DHCP lease 'dc:a6:32:4e:05:b3' with '192.168.40.118' 'plume-client' '1539'
+Tue Jun  4 05:59:09 2024 user.info FCM[4417]: <INFO>     OVSDB: MON upd: MOD table: DHCP_leased_IP row: ee6f7cf5-029f-40b3-81f1-e81cf87f4804
+Tue Jun  4 05:59:10 2024 user.info QM[4315]: <INFO>      MAIN: merged reports stats 0 + 1233 = 1233
+Tue Jun  4 05:59:10 2024 user.info QM[4315]: <INFO>      MAIN: merged reports stats 1233 + 630 = 1849
+Tue Jun  4 05:59:10 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 781 bytes
+Tue Jun  4 05:59:10 2024 user.info CM[4354]: <INFO>     OVSDB: Uplink eth0 ipv4: active ipv6: none
+Tue Jun  4 05:59:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:10 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 5 (Failed to convert stats)
+Tue Jun  4 05:59:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 5 (Failed to convert stats)
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 5
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 5
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:15 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 4 (Failed to convert stats)
+Tue Jun  4 05:59:16 2024 user.info FCM[4417]: <INFO>      MISC: fcm_event_cb: pid 4417: mem usage: real mem: 3988, virt mem 9768
+Tue Jun  4 05:59:16 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 05:59:16 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 05:59:16 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 05:59:16 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:54408 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 05:59:16 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 05:59:16 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:54408 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 05:59:18 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38824 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 05:59:18 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:18 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38826 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:18 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:18 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38828 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:19 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38830 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:19 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38832 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:19 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#AddPortMapping
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: AddPortMapping: ext port 8080 to 192.168.40.118:8080 protocol TCP for: libminiupnpc leaseduration=0 rhost=
+Tue Jun  4 05:59:19 2024 daemon.debug miniupnpd[9683]: UPnP permission rule 0 matched : port mapping accepted
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: redirecting port 8080 to 192.168.40.118:8080 protocol TCP for: libminiupnpc
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38834 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:19 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetSpecificPortMappingEntry
+Tue Jun  4 05:59:19 2024 daemon.info miniupnpd[9683]: GetSpecificPortMappingEntry: rhost='' 8080 TCP found => 192.168.40.118:8080 desc='libminiupnpc'
+Tue Jun  4 05:59:20 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 05:59:20 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 05:59:20 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 05:59:20 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:37591 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 05:59:20 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 05:59:20 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:37591 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 05:59:20 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:20 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:20 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:20 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 6 (Failed to convert stats)
+Tue Jun  4 05:59:22 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38836 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 05:59:22 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:22 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38838 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:22 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:22 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38840 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:23 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38842 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:23 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetConnectionTypeInfo
+Tue Jun  4 05:59:23 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 6 (Failed to convert stats)
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 6
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 6
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38844 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:23 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38846 : POST /ctl/CmnIfCfg (HTTP/1.1)
+Tue Jun  4 05:59:23 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1#GetCommonLinkProperties
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38848 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:23 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:23 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38850 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:24 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=0
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38852 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:24 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=1
+Tue Jun  4 05:59:24 2024 daemon.info miniupnpd[9683]: Returning UPnPError 713: SpecifiedArrayIndexInvalid
+Tue Jun  4 05:59:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:25 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 5 (Failed to convert stats)
+Tue Jun  4 05:59:26 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 05:59:26 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 05:59:26 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 05:59:26 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:45620 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 05:59:26 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 05:59:26 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:45620 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 05:59:28 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38854 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 05:59:28 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:28 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38856 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:28 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:28 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38858 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:29 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38860 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:29 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38862 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:29 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#AddPortMapping
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: AddPortMapping: ext port 8080 to 192.168.40.118:8080 protocol UDP for: libminiupnpc leaseduration=0 rhost=
+Tue Jun  4 05:59:29 2024 daemon.debug miniupnpd[9683]: UPnP permission rule 0 matched : port mapping accepted
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: redirecting port 8080 to 192.168.40.118:8080 protocol UDP for: libminiupnpc
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38864 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:29 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetSpecificPortMappingEntry
+Tue Jun  4 05:59:29 2024 daemon.info miniupnpd[9683]: GetSpecificPortMappingEntry: rhost='' 8080 UDP found => 192.168.40.118:8080 desc='libminiupnpc'
+Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>      MAIN: Failed to get network ID for 2.4G wifi0 client 94:78:06:00:05:ee
+Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 client report at '2024-06-04 05:59:30+0000'
+Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 on-chan 1 survey report at '2024-06-04 05:59:30+0000'
+Tue Jun  4 05:59:30 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 05:59:30 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 05:59:30 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 05:59:30 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:49336 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 05:59:30 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 05:59:30 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:49336 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 on-chan neighbor report at '2024-06-04 05:59:30+0000'
+Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:30 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:30 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 1 (Failed to convert stats)
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: fsm_pcap_stats: br-home.dpi: packets received: 197, dropped: 0
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: fsm_pcap_stats: br-home.dns: packets received: 0, dropped: 0
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: fsm_pcap_stats: br-home.http: packets received: 0, dropped: 0
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: fsm_pcap_stats: br-home.mdns: packets received: 1209, dropped: 0
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: fsm_pcap_stats: br-home.ndp: packets received: 19, dropped: 0
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: netlink queue stats: queue total: 0 copy mode: 2 copy range: 65531 qdrop: 0 user drop: 0
+Tue Jun  4 05:59:30 2024 user.info FSM[4406]: <INFO>      MISC: pid 4406: mem usage: real mem: 43140, virt mem 47756
+Tue Jun  4 05:59:32 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38866 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 05:59:32 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:32 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38868 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:32 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:32 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 05:59:32 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38870 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:32 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:32 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38872 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:33 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetConnectionTypeInfo
+Tue Jun  4 05:59:33 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:33 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:33 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_write_req(1 t:null ds:0): b:56
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_read_res: b:48
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_send_fd: req c:1 dt:0 ds:0 to:null result:1 response:1 err:0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>      OSA: os_nif_macaddr get::ifname=eth0|mac=94:78:06:00:02:F1
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>      DPP: dppline_add_stat_client: ============= size raw: 1568 alloc: 408 proto struct: 406
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>      DPP: dppline_add_stat_neighbor: ============= size raw: 32 alloc: 5336 proto struct: 2981
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>      DPP: Q len: 0 size: 0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_client /tmp/opensync/qm.sock
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_write_req(2 t:null ds:1141): b:1197
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_read_res: b:48
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_send_fd: req c:2 dt:2 ds:1141 to:null result:1 response:2 err:0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MISC: Sent message to QM (size: 1141 type: stats)
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 7
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38874 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:33 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38876 : POST /ctl/CmnIfCfg (HTTP/1.1)
+Tue Jun  4 05:59:33 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1#GetCommonLinkProperties
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38878 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:33 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38880 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:33 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 05:59:33 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=0
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38882 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:34 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=1
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38884 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 05:59:34 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=2
+Tue Jun  4 05:59:34 2024 daemon.info miniupnpd[9683]: Returning UPnPError 713: SpecifiedArrayIndexInvalid
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>      MAIN: Sending 5G wifi1 on-chan 44 survey report at '2024-06-04 05:59:35+0000'
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>      MAIN: Sending 5G wifi1 client report at '2024-06-04 05:59:35+0000'
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>      MAIN: Sending 5G wifi1 on-chan neighbor report at '2024-06-04 05:59:35+0000'
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:35 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 0 (Failed to convert stats)
+Tue Jun  4 05:59:37 2024 authpriv.info dropbear[26263]: Child connection from 192.168.4.1:48632
+Tue Jun  4 05:59:37 2024 authpriv.notice dropbear[26263]: Password auth succeeded for 'osync' from 192.168.4.1:48632
+Tue Jun  4 05:59:37 2024 authpriv.info dropbear[26263]: Exit (osync): Exited normally
+Tue Jun  4 05:59:37 2024 authpriv.info dropbear[26265]: Child connection from 192.168.4.1:48634
+Tue Jun  4 05:59:37 2024 authpriv.notice dropbear[26265]: Password auth succeeded for 'osync' from 192.168.4.1:48634
+Tue Jun  4 05:59:38 2024 authpriv.info dropbear[26265]: Exit (osync): Exited normally
+Tue Jun  4 05:59:40 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:40 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:40 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:40 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 2 (Failed to convert stats)
+Tue Jun  4 05:59:42 2024 user.info CM[4354]: <INFO>      MISC: eth0: stability for eth0: scheduling 0x1b update
+Tue Jun  4 05:59:42 2024 user.info CM[4354]: <INFO>      MISC: eth0: cm2_util_req_stability_check_recalc calling. Link check: eth0
+Tue Jun  4 05:59:42 2024 user.info CM[4354]: <INFO>      MISC: pid 4354: mem usage: real mem: 4000, virt mem 9408
+Tue Jun  4 05:59:43 2024 user.info CM[4354]: <INFO>      MISC: Params to check: link: yes router: yes internet: no ntp: yes ipv4: yes ipv6: no opts = 27
+Tue Jun  4 05:59:43 2024 user.notice CM[4354]: <NOTICE>    MISC: Connection status 1, main link: eth0 bridge: none 
+Tue Jun  4 05:59:43 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 2 (Failed to convert stats)
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 2
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 8
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:45 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 1 (Failed to convert stats)
+Tue Jun  4 05:59:50 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:50 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:50 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:50 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 3 (Failed to convert stats)
+Tue Jun  4 05:59:53 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 3 (Failed to convert stats)
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 3
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 9
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 05:59:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 05:59:54 2024 user.info FCM[4417]: <INFO>      MISC: ct_stats_send_aggr_report: total flows: 84 held flows: 0
+Tue Jun  4 05:59:54 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 514 bytes
+Tue Jun  4 05:59:54 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 210 bytes
+Tue Jun  4 05:59:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 05:59:55 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 2 (Failed to convert stats)
+Tue Jun  4 05:59:59 2024 user.notice healthcheck[26363]: <INFO>      MAIN: Checking....
+Tue Jun  4 05:59:59 2024 user.notice healthcheck[26370]: <DEBUG>     MAIN: 05_ntp.sh check passed
+Tue Jun  4 06:00:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:00 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 4 (Failed to convert stats)
+Tue Jun  4 06:00:00 2024 user.notice healthcheck[26534]: <DEBUG>     MAIN: 10_bss.sh check passed
+Tue Jun  4 06:00:00 2024 user.notice healthcheck[26538]: <DEBUG>     MAIN: 12_dns.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26546]: <DEBUG>     MAIN: 15_ap.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26556]: <DEBUG>     MAIN: 16_ovs.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26564]: <DEBUG>     MAIN: 20_tmp_df.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26571]: <DEBUG>     MAIN: 30_netdev_refcount.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26576]: <DEBUG>     MAIN: 40_conntrack_overflow.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26586]: <DEBUG>     MAIN: 98_file_handles.sh check passed
+Tue Jun  4 06:00:01 2024 user.notice healthcheck[26594]: <DEBUG>     MAIN: 99_zombie.sh check passed
+Tue Jun  4 06:00:02 2024 daemon.err udhcpc[2494]: sending renew to 192.168.4.1
+Tue Jun  4 06:00:02 2024 daemon.err udhcpc[2494]: lease of 192.168.4.10 obtained, lease time 600
+Tue Jun  4 06:00:03 2024 user.info QM[4315]: <INFO>     TELOG: telog[26600] [00:26:32.875] DHCP4_CLIENT: eth0.4: [renew] addr=192.168.4.10, subnet=255.255.255.0
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]: ProcessInterfaceWatchNotify RTM_NEWADDR index=20 fam=2
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]:  - 20 - 192.168.4.10 type=1
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]:  - 20 - 192.168.4.10 type=2
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]:  - 20 - 192.168.4.255 type=4
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]:  - 20 - eth0.4 type=3
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]:  - 20 - *unknown* type=8
+Tue Jun  4 06:00:03 2024 daemon.debug miniupnpd[9683]:  - 20 - valid=4294967295 preferred=4294967295 type=6
+Tue Jun  4 06:00:03 2024 user.notice root[26602]: udhcpc.user: [eth0.4] args=renew
+Tue Jun  4 06:00:03 2024 user.notice root[26603]: udhcpc.user: lease=600
+Tue Jun  4 06:00:03 2024 daemon.info dnsmasq[26073]: reading /tmp/resolv.conf
+Tue Jun  4 06:00:03 2024 daemon.info dnsmasq[26073]: using local addresses only for domain lan
+Tue Jun  4 06:00:03 2024 daemon.info dnsmasq[26073]: using nameserver 192.168.200.1#53
+Tue Jun  4 06:00:03 2024 daemon.warn ovs-vswitchd[3750]: ovs|00010|dpif(handler4)|WARN|system@ovs-system: execute 15,ct(commit,mark=0x1/0xffffffff) failed (Invalid argument) on packet tcp,vlan_tci=0x0000,dl_src=94:78:06:00:02:f1,dl_dst=dc:a6:32:4e:05:b3,nw_src=192.168.200.1,nw_dst=192.168.40.118,nw_tos=0,nw_ecn=0,nw_ttl=63,tp_src=50322,tp_dst=8080,tcp_flags=syn tcp_csum:1d4b
+Tue Jun  4 06:00:03 2024 daemon.warn ovs-vswitchd[3750]:  with metadata skb_priority(0),skb_mark(0),ct_state(0x21),in_port(1) mtu 0
+Tue Jun  4 06:00:03 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 158 bytes
+Tue Jun  4 06:00:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 4 (Failed to convert stats)
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 4
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: nl_io_read_cb io->fd = 8
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: nl_io_read_cb io->fd = 8
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: nl_io_read_cb io->fd = 8
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Accumulating avg rate stats for 94:78:06:00:05:EE
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 6 (1) survey sample 10
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       360767, tx:            0, rx:        39832, busy:        71142, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:05 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 3 (Failed to convert stats)
+Tue Jun  4 06:00:10 2024 user.info QM[4315]: <INFO>      MAIN: merged reports stats 0 + 1141 = 1141
+Tue Jun  4 06:00:10 2024 user.info QM[4315]: <INFO>      MAIN: merged reports stats 1141 + 591 = 1718
+Tue Jun  4 06:00:10 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 719 bytes
+Tue Jun  4 06:00:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:10 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 5 (Failed to convert stats)
+Tue Jun  4 06:00:10 2024 daemon.warn ovs-vswitchd[3750]: ovs|00011|dpif(handler4)|WARN|system@ovs-system: execute 15,ct(commit,mark=0x1/0xffffffff) failed (Invalid argument) on packet udp,vlan_tci=0x0000,dl_src=94:78:06:00:02:f1,dl_dst=dc:a6:32:4e:05:b3,nw_src=192.168.200.1,nw_dst=192.168.40.118,nw_tos=0,nw_ecn=0,nw_ttl=63,tp_src=44533,tp_dst=8080 udp_csum:4fb3
+Tue Jun  4 06:00:10 2024 daemon.warn ovs-vswitchd[3750]:  with metadata skb_priority(0),skb_mark(0),ct_state(0x21),in_port(1) mtu 0
+Tue Jun  4 06:00:13 2024 user.info SM[4382]: <INFO>      MAIN: Force processing 2.4G wifi0 off-chan survey delay: 110/110 count: 0/3
+Tue Jun  4 06:00:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:15 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:15 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 4 (Failed to convert stats)
+Tue Jun  4 06:00:20 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:20 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:20 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:20 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 6 (Failed to convert stats)
+Tue Jun  4 06:00:22 2024 user.info CM[4354]: <INFO>      MISC: eth0: stability for eth0: scheduling 0x1b update
+Tue Jun  4 06:00:22 2024 user.info CM[4354]: <INFO>      MISC: eth0: cm2_util_req_stability_check_recalc calling. Link check: eth0
+Tue Jun  4 06:00:22 2024 user.info CM[4354]: <INFO>      MISC: pid 4354: mem usage: real mem: 4000, virt mem 9408
+Tue Jun  4 06:00:23 2024 user.info CM[4354]: <INFO>      MISC: Params to check: link: yes router: yes internet: no ntp: yes ipv4: yes ipv6: no opts = 27
+Tue Jun  4 06:00:23 2024 user.notice CM[4354]: <NOTICE>    MISC: Connection status 1, main link: eth0 bridge: none 
+Tue Jun  4 06:00:23 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 6 (Failed to convert stats)
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 6
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 11 (1) survey sample 13
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       370855, tx:            0, rx:        39832, busy:        75265, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:23 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:23 2024 daemon.err udhcpc[5696]: sending renew to 192.168.200.1
+Tue Jun  4 06:00:23 2024 daemon.err udhcpc[5696]: lease of 192.168.200.10 obtained, lease time 600
+Tue Jun  4 06:00:23 2024 user.info QM[4315]: <INFO>     TELOG: telog[26715] [00:26:53.756] DHCP4_CLIENT: eth0: [renew] addr=192.168.200.10, subnet=255.255.255.0
+Tue Jun  4 06:00:23 2024 user.info NM[4452]: <INFO>      MISC: udhcpc [5696] > eth0: adding ipv4 addr 192.168.200.10/255.255.255.0
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]: ProcessInterfaceWatchNotify RTM_NEWADDR index=2 fam=2
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]:  - 2 - 192.168.200.10 type=1
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]:  - 2 - 192.168.200.10 type=2
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]:  - 2 - 192.168.200.255 type=4
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]:  - 2 - eth0 type=3
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]:  - 2 - *unknown* type=8
+Tue Jun  4 06:00:23 2024 daemon.debug miniupnpd[9683]:  - 2 - valid=4294967295 preferred=4294967295 type=6
+Tue Jun  4 06:00:23 2024 daemon.info miniupnpd[9683]: should send external iface address change notification(s)
+Tue Jun  4 06:00:23 2024 user.info NM[4452]: <INFO>      MISC: udhcpc [5696] > eth0: setting default routers: 192.168.200.1
+Tue Jun  4 06:00:23 2024 daemon.err miniupnpd[9683]: PCPSendUnsolicitedAnnounce() IPv6 sendto(): Bad file descriptor
+Tue Jun  4 06:00:23 2024 user.notice root[26718]: udhcpc.user: [eth0] args=renew
+Tue Jun  4 06:00:23 2024 user.notice root[26719]: udhcpc.user: gateway=192.168.200.1
+Tue Jun  4 06:00:23 2024 user.notice root[26720]: udhcpc.user: dns=192.168.200.1
+Tue Jun  4 06:00:23 2024 user.notice root[26721]: udhcpc.user: lease=600
+Tue Jun  4 06:00:23 2024 daemon.info dnsmasq[26073]: reading /tmp/resolv.conf
+Tue Jun  4 06:00:23 2024 daemon.info dnsmasq[26073]: using local addresses only for domain lan
+Tue Jun  4 06:00:23 2024 daemon.info dnsmasq[26073]: using nameserver 192.168.200.1#53
+Tue Jun  4 06:00:24 2024 user.info NM[4452]: <INFO>      MISC: inet_routes: eth0: reapplying static routes
+Tue Jun  4 06:00:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:25 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:25 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 5 (Failed to convert stats)
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>      MAIN: Failed to get network ID for 2.4G wifi0 client 94:78:06:00:05:ee
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 client report at '2024-06-04 06:00:30+0000'
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 on-chan neighbor report at '2024-06-04 06:00:30+0000'
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 on-chan 1 survey report at '2024-06-04 06:00:30+0000'
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 off-chan neighbor report at '2024-06-04 06:00:30+0000'
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>      MAIN: Sending 2.4G wifi0 off-chan 11 survey report at '2024-06-04 06:00:30+0000'
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:30 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:30 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 0 (Failed to convert stats)
+Tue Jun  4 06:00:33 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:33 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:33 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_write_req(1 t:null ds:0): b:56
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_read_res: b:48
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_send_fd: req c:1 dt:0 ds:0 to:null result:1 response:1 err:0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>      OSA: os_nif_macaddr get::ifname=eth0|mac=94:78:06:00:02:F1
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>      DPP: dppline_add_stat_client: ============= size raw: 1568 alloc: 408 proto struct: 406
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>      DPP: dppline_add_stat_neighbor: ============= size raw: 32 alloc: 5152 proto struct: 2886
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>      DPP: Q len: 0 size: 0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_client /tmp/opensync/qm.sock
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_write_req(2 t:null ds:1153): b:1209
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_read_res: b:48
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>     MISC: qm_conn_send_fd: req c:2 dt:2 ds:1153 to:null result:1 response:2 err:0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MISC: Sent message to QM (size: 1153 type: stats)
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 11 (1) survey sample 1
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       370855, tx:            0, rx:        39832, busy:        75265, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:33 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:34 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 06:00:34 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 06:00:34 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 06:00:34 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:50994 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 06:00:34 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 06:00:34 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:50994 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>      MAIN: Sending 5G wifi1 on-chan 44 survey report at '2024-06-04 06:00:35+0000'
+Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>      MAIN: Sending 5G wifi1 on-chan neighbor report at '2024-06-04 06:00:35+0000'
+Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>      MAIN: Sending 5G wifi1 client report at '2024-06-04 06:00:35+0000'
+Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:35 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:35 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 1 (Failed to convert stats)
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38886 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 06:00:36 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38888 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:36 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38890 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:36 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38892 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:36 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetConnectionTypeInfo
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38894 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:36 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:36 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38896 : POST /ctl/CmnIfCfg (HTTP/1.1)
+Tue Jun  4 06:00:37 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1#GetCommonLinkProperties
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38898 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:37 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38900 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:37 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=0
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38902 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:37 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 06:00:37 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=1
+Tue Jun  4 06:00:38 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38904 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:38 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:38 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 06:00:38 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=2
+Tue Jun  4 06:00:38 2024 daemon.info miniupnpd[9683]: Returning UPnPError 713: SpecifiedArrayIndexInvalid
+Tue Jun  4 06:00:38 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 06:00:38 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 06:00:38 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 06:00:38 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:52285 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 06:00:38 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 06:00:38 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:52285 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 06:00:40 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:40 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:40 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:40 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 1 (Failed to convert stats)
+Tue Jun  4 06:00:40 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38906 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 06:00:40 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38908 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:41 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38910 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:41 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38912 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:41 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#DeletePortMapping
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: DeletePortMapping: external port: 8080, protocol: TCP
+Tue Jun  4 06:00:41 2024 daemon.info miniupnpd[9683]: removing redirect rule port 8080 TCP
+Tue Jun  4 06:00:43 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 1 (Failed to convert stats)
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 1
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 11 (1) survey sample 2
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       370855, tx:            0, rx:        39832, busy:        75265, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:43 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:45 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:45 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 2 (Failed to convert stats)
+Tue Jun  4 06:00:47 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 06:00:47 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 06:00:47 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 06:00:47 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:52855 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 06:00:47 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 06:00:47 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:52855 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 06:00:49 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38914 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 06:00:49 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:49 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38916 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:49 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:49 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38918 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:50 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38920 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:50 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetConnectionTypeInfo
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38922 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:50 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:00:50 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:50 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:50 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:50 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 2 (Failed to convert stats)
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38924 : POST /ctl/CmnIfCfg (HTTP/1.1)
+Tue Jun  4 06:00:50 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:50 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1#GetCommonLinkProperties
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38926 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:51 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38928 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:51 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=0
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38930 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:51 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=1
+Tue Jun  4 06:00:51 2024 daemon.info miniupnpd[9683]: Returning UPnPError 713: SpecifiedArrayIndexInvalid
+Tue Jun  4 06:00:52 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 06:00:52 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 06:00:52 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 06:00:52 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:32774 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 06:00:52 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 06:00:52 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:32774 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 06:00:53 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 2 (Failed to convert stats)
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 2
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 11 (1) survey sample 3
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       370855, tx:            0, rx:        39832, busy:        75265, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:00:53 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:00:54 2024 user.info FCM[4417]: <INFO>      MISC: ct_stats_send_aggr_report: total flows: 76 held flows: 0
+Tue Jun  4 06:00:54 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 809 bytes
+Tue Jun  4 06:00:54 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 216 bytes
+Tue Jun  4 06:00:54 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38932 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 06:00:54 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:54 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38934 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:54 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:54 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:00:54 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38936 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:54 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:54 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:00:55 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38938 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:00:55 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:00:55 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#DeletePortMapping
+Tue Jun  4 06:00:55 2024 daemon.info miniupnpd[9683]: DeletePortMapping: external port: 8080, protocol: UDP
+Tue Jun  4 06:00:55 2024 daemon.info miniupnpd[9683]: removing redirect rule port 8080 UDP
+Tue Jun  4 06:00:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:55 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:00:55 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 3 (Failed to convert stats)
+Tue Jun  4 06:00:55 2024 user.info FSM[4406]: <INFO>      MISC: fsm_dpi_periodic: core_dpi_dispatch: total flows: 97 held flows: 20, reported flows: 14
+Tue Jun  4 06:00:55 2024 user.info FSM[4406]: <INFO>      MISC: fsm_dpi_periodic: unix_ipc: io successes: 62, io failures: 0
+Tue Jun  4 06:00:55 2024 user.info FSM[4406]: <INFO>      MISC: dpi_plugin_periodic:walleye_dpi: active connections: 90
+Tue Jun  4 06:00:55 2024 user.info FSM[4406]: <INFO>      MISC: dpi_plugin_periodic:walleye_dpi: scan error: length adjustments: 47
+Tue Jun  4 06:01:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:00 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:00 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 3 (Failed to convert stats)
+Tue Jun  4 06:01:01 2024 user.notice healthcheck[26911]: <INFO>      MAIN: Checking....
+Tue Jun  4 06:01:01 2024 user.notice healthcheck[26918]: <DEBUG>     MAIN: 05_ntp.sh check passed
+Tue Jun  4 06:01:02 2024 user.info CM[4354]: <INFO>      MISC: eth0: stability for eth0: scheduling 0x1b update
+Tue Jun  4 06:01:02 2024 user.info CM[4354]: <INFO>      MISC: eth0: cm2_util_req_stability_check_recalc calling. Link check: eth0
+Tue Jun  4 06:01:02 2024 user.info CM[4354]: <INFO>      MISC: pid 4354: mem usage: real mem: 4000, virt mem 9408
+Tue Jun  4 06:01:02 2024 user.notice healthcheck[27071]: <DEBUG>     MAIN: 10_bss.sh check passed
+Tue Jun  4 06:01:02 2024 user.notice healthcheck[27075]: <DEBUG>     MAIN: 12_dns.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27083]: <DEBUG>     MAIN: 15_ap.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27093]: <DEBUG>     MAIN: 16_ovs.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27101]: <DEBUG>     MAIN: 20_tmp_df.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27108]: <DEBUG>     MAIN: 30_netdev_refcount.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27113]: <DEBUG>     MAIN: 40_conntrack_overflow.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27123]: <DEBUG>     MAIN: 98_file_handles.sh check passed
+Tue Jun  4 06:01:03 2024 user.notice healthcheck[27131]: <DEBUG>     MAIN: 99_zombie.sh check passed
+Tue Jun  4 06:01:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 3 (Failed to convert stats)
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 3
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 11 (1) survey sample 4
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       370855, tx:            0, rx:        39832, busy:        75265, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:01:03 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:01:03 2024 user.info CM[4354]: <INFO>      MISC: Params to check: link: yes router: yes internet: no ntp: yes ipv4: yes ipv6: no opts = 27
+Tue Jun  4 06:01:03 2024 user.notice CM[4354]: <NOTICE>    MISC: Connection status 1, main link: eth0 bridge: none 
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MAIN: dhcp_rip: DHCP_reserved_IP delete: 
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: inet_base: br-home: Commiting new configuration.
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: inet_eth: br-home: Service DHCPv4 Server -> stop.
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: inet_base: br-home: Service DHCPv4 Server -> stop
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Stopping dnsmasq service on interface br-home.
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: inet_eth: br-home: Service DHCPv4 Server -> start.
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: inet_base: br-home: Service DHCPv4 Server -> start
+Tue Jun  4 06:01:04 2024 user.info QM[4315]: <INFO>     TELOG: NM[4452] [00:27:34.743] DHCP4_SERVER: br-home: [stop] 
+Tue Jun  4 06:01:04 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Stopping dnsmasq service on interface br-home.
+Tue Jun  4 06:01:04 2024 user.info QM[4315]: <INFO>     TELOG: NM[4452] [00:27:34.743] DHCP4_SERVER: br-home: [start] 
+Tue Jun  4 06:01:05 2024 daemon.debug miniupnpd[9683]: level=0 type=8
+Tue Jun  4 06:01:05 2024 daemon.debug miniupnpd[9683]: ifindex = 23  192.168.40.1
+Tue Jun  4 06:01:05 2024 daemon.debug miniupnpd[9683]: ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1 (ver=1)
+Tue Jun  4 06:01:05 2024 daemon.info miniupnpd[9683]: SSDP M-SEARCH from 192.168.40.118:55672 ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+Tue Jun  4 06:01:05 2024 daemon.info miniupnpd[9683]: Single search found
+Tue Jun  4 06:01:05 2024 daemon.debug miniupnpd[9683]: SendSSDPResponse(): 0 bytes to 192.168.40.118:55672 ST: HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+EXT:
+SERVER: OpenWRT/OpenWrt UPnP/1.1 MiniUPnPd/2.1
+LOCATION: http://192.168.40.1:38554/rootDesc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1717479412
+BOOTID.UPNP.ORG: 1717479Tue Jun  4 06:01:05 2024 user.info NM[4452]: <INFO>      MISC: Restarting dnsmasq.
+Tue Jun  4 06:01:05 2024 user.info NM[4452]: <INFO>      MISC: Terminating daemon /usr/sbin/dnsmasq (26073, signal 15).
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[26073]: exiting on receipt of SIGTERM
+Tue Jun  4 06:01:05 2024 user.info NM[4452]: <INFO>      MISC: Daemon /usr/sbin/dnsmasq (26073) exited with exit status 0.
+Tue Jun  4 06:01:05 2024 user.info NM[4452]: <INFO>      MISC: dhcpv4_server: Lease file changed.
+Tue Jun  4 06:01:05 2024 user.info NM[4452]: <INFO>      MISC: Started daemon /usr/sbin/dnsmasq (27135)...
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: started, version 2.80 cachesize 150
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-nettlehash no-DNSSEC no-ID loop-detect inotify dumpfile
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq-dhcp[27135]: DHCP, IP range 192.168.40.2 -- 192.168.40.254, lease time 12h
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq-dhcp[27135]: DHCP, IP range 169.254.2.2 -- 169.254.2.126, lease time 12h
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq-dhcp[27135]: DHCP, IP range 169.254.3.2 -- 169.254.3.126, lease time 12h
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq-dhcp[27135]: DHCP, IP range 169.254.3.130 -- 169.254.3.254, lease time 12h
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq-dhcp[27135]: DHCP, IP range 169.254.2.130 -- 169.254.2.254, lease time 12h
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: using local addresses only for domain lan
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: reading /tmp/resolv.conf
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: using local addresses only for domain lan
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: using nameserver 192.168.200.1#53
+Tue Jun  4 06:01:05 2024 daemon.info dnsmasq[27135]: read /etc/hosts - 1 addresses
+Tue Jun  4 06:01:05 2024 daemon.err dnsmasq-dhcp[27135]: failed to read /etc/ethers: No such file or directory
+Tue Jun  4 06:01:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:05 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:05 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 5G wifi1 on-chan 44 survey record 4 (Failed to convert stats)
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38940 : GET /rootDesc.xml (HTTP/1.1)
+Tue Jun  4 06:01:07 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38942 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:01:07 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:01:07 2024 daemon.debug hostapd[3538]: ath02: ap_handle_timer: 94:78:06:00:05:ee flags=0x1048aa3 timeout_next=0
+Tue Jun  4 06:01:07 2024 daemon.debug hostapd[3538]: ath02: Station 94:78:06:00:05:ee has been active 0s ago
+Tue Jun  4 06:01:07 2024 daemon.debug hostapd[3538]: ap_handle_timer: register ap_handle_timer timeout for 94:78:06:00:05:ee (300 seconds)
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38944 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:01:07 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38946 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:01:07 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:07 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetConnectionTypeInfo
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38948 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:01:08 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetStatusInfo
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38950 : POST /ctl/CmnIfCfg (HTTP/1.1)
+Tue Jun  4 06:01:08 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1#GetCommonLinkProperties
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38952 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:01:08 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: HTTP REQUEST from [::ffff:192.168.40.118]:38954 : POST /ctl/IPConn (HTTP/1.1)
+Tue Jun  4 06:01:08 2024 daemon.debug miniupnpd[9683]: Host: 192.168.40.1:38554
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: SOAPAction: urn:schemas-upnp-org:service:WANIPConnection:1#GetGenericPortMappingEntry
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: GetGenericPortMappingEntry: index=0
+Tue Jun  4 06:01:08 2024 daemon.info miniupnpd[9683]: Returning UPnPError 713: SpecifiedArrayIndexInvalid
+Tue Jun  4 06:01:10 2024 user.info QM[4315]: <INFO>      MAIN: merged reports stats 0 + 1153 = 1153
+Tue Jun  4 06:01:10 2024 user.info QM[4315]: <INFO>      MAIN: merged reports stats 1153 + 630 = 1769
+Tue Jun  4 06:01:10 2024 user.info QM[4315]: <INFO>      MAIN: MQTT: Publishing 745 bytes
+Tue Jun  4 06:01:10 2024 user.info CM[4354]: <INFO>     OVSDB: Uplink eth0 ipv4: active ipv6: none
+Tue Jun  4 06:01:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:10 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:10 2024 user.notice SM[4382]: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 4 (Failed to convert stats)
+Tue Jun  4 06:01:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.info SM[4382]: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>       MAIN: Processing 2.4G wifi0 off-chan 1 survey (failed to convert threshold stats)
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <NOTICE>    MAIN: Processing 2.4G wifi0 on-chan 1 survey record 4 (Failed to convert stats)
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processed 2.4G wifi0 on-chan survey records 4
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>     MAIN: Processing 2.4G wifi0 off-chan 11 (1) survey sample 5
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Home channel survey stats:
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:        16899, total:     47976251 tx:      1744615, rx:      8933284, busy:     13418259, busy_ext:            0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: Scan channel survey stats:
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2412, rx_bss:            0, total:       300129, tx:            0, rx:       111078, busy:       114022, busy_ext:            0, noise_floor: 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2417, rx_bss:            0, total:       300137, tx:            0, rx:        39062, busy:        84237, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2422, rx_bss:            0, total:       300122, tx:            0, rx:        32264, busy:        78419, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2427, rx_bss:            0, total:       300125, tx:            0, rx:        80080, busy:       117851, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2432, rx_bss:            0, total:       300151, tx:            0, rx:        74664, busy:        87122, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2437, rx_bss:            0, total:       370855, tx:            0, rx:        39832, busy:        75265, busy_ext:            0, noise_floor: -99
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2442, rx_bss:            0, total:       300151, tx:            0, rx:        42159, busy:        79273, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2447, rx_bss:            0, total:       300130, tx:            0, rx:        50198, busy:        84333, busy_ext:            0, noise_floor: -95
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2452, rx_bss:            0, total:       300130, tx:            0, rx:        82468, busy:        95220, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2457, rx_bss:            0, total:       300145, tx:            0, rx:        12904, busy:        32583, busy_ext:            0, noise_floor: -97
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <DEBUG>    IOCTL: freq: 2462, rx_bss:            0, total:       360762, tx:            0, rx:        76677, busy:        87621, busy_ext:            0, noise_floor: -98
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <INFO>     IOCTL: Skip invalid stats reported by driver, freq = 0
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Fetched 2.4G on-chan 1 survey {active=47976251 busy=13418259 tx=1744615 self=16899 rx=8933284 ext=0 nf=0}
+Tue Jun  4 06:01:13 2024 user.err SM[4382]: <ERR>  TRACEBACK: <TRACE>    IOCTL: Processed 2.4G on-chan 1 survey delta {active=0 busy=0 tx=0 self=0 rx=0 ext=0 nf=0}
